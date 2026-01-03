@@ -15,7 +15,7 @@ This repository includes scripts for:
 - **`Data`**: 
   - `Data/lag_data/lag_err_fermi_32grbs/`: Contains the spectral-lag data for 32 GRBs. Each file, named `GRBName.txt`, lists the energy bands used to calculate the time lags (with the lowest energy band as the reference), along with the 1$\sigma$ errors for both the energy bands and the time lags.
   - `Data/lag_data/GRBPARAM.csv`: Contains information about the energy bands used to extract the Fermi-GBM light curves for each GRB, as well as the redshift for each burst.
-  - `Data/posteriors_cubicspline_DU25/`: Contains the posterior samples of $log_10(E_{\rm QG,n})$ derived from single-burst Bayesian analysis using a cubic spline to fit the source-intrinsic time lags in the linear (or quadratic) Lorentz Invariance violation (LIV) scenario.
+  - `Data/posteriors_cubicspline_DU25/`: Contains the posterior samples of $log_{10}(E_{\rm QG,n})$ derived from single-burst Bayesian analysis using a cubic spline to fit the source-intrinsic time lags in the linear (or quadratic) Lorentz Invariance violation (LIV) scenario.
   - `Data/posteriors_SBPL_L22/`: Contains results from single-burst Bayesian analysis using a smooth broken power-law (SBPL) function, published by [Liu et al.](https://doi.org/10.3847/1538-4357/ac81b9).
   - `Data/lnBayesFactor.txt`: Provides the e-based logarithmic Bayes factors comparing the Cubic Spline and SBPL models.
 
